@@ -1,0 +1,153 @@
+h1, h2, h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.end-heading, .price-tag, .section-heading, .review{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.key-point, .dog-breeds{
+    font-size: 1.5rem;
+}
+
+#title{
+    background-color: #ff4c68;
+    color:white;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+}
+
+.download-button{
+    margin: 5% 2% 2% 0;
+}
+
+.title-image{
+    width: 23%;
+    transform: rotate(25deg);
+    padding-left: 5%;
+    position: absolute;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 0 3%;
+}
+
+#features{
+    padding: 7% 13%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 13%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    padding: 3%;
+}
+
+#footer{
+    text-align: center;
+    padding: 2.5%;
+}
+
+.f-icon{
+    color: black;
+    margin: 2%;
+}
